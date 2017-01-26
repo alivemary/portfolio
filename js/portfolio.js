@@ -5,7 +5,7 @@
         switch (this.id) {
             case 'aM':
                 $('#aboutMe').removeClass('hidden');
-                $('#projects').addClass('hidden');
+                $('#projects').removeClass('hidden');
                 break;
             case 'pR':
                 $('#aboutMe').addClass('hidden');
@@ -13,7 +13,7 @@
                 break;
             case 'last':
                 $('#aboutMe').removeClass('hidden');
-                $('#projects').removeClass('hidden');
+                $('#projects').addClass('hidden');
                 break;
         }
     });

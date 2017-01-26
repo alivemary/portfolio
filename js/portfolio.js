@@ -14,6 +14,7 @@
             case 'last':
                 $('#aboutMe').removeClass('hidden');
                 $('#projects').removeClass('hidden');
+                break;
         }
     });
 });

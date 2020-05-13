@@ -1,17 +1,14 @@
 import React from "react"
-import { Helmet } from "react-helmet"
+import Layout from "../components/layout"
 
-const HomePage: React.FC<void> = () => {
+const HomePage: React.FC<{}> = () => {
     return (
-        <>
-            <Helmet>
-                <title>My Personal Page</title>
-            </Helmet>
+        <Layout>
             <header>
                 <h1>Hello Gatsby!</h1>
             </header>
             <main>Welcome here :)</main>
-        </>
+        </Layout>
     )
 }
 

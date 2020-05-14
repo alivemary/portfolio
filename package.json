@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:alivemary/portfolio.git",
+  "private": true,
   "author": "alivemary <alivemary@gmail.com>",
   "license": "MIT",
   "scripts": {
